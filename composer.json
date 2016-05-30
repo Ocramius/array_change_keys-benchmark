@@ -1,0 +1,10 @@
+{
+    "require": {
+        "phpbench/phpbench": "^0.11.2"
+    },
+    "autoload": {
+        "classmap": [
+            "./BenchArrayChangeKeys.php"
+        ]
+    }
+}
