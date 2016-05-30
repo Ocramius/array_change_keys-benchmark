@@ -81,3 +81,6 @@ suite: 133a012802990c6b9a6c66409404f7296da50b90, date: 2016-05-30, stime: 20:16:
 
 This is MIT. I CBA to add the licence headers: send a PR if you need 'em'.
 
+## Credits
+
+Initial benchmark at https://gist.github.com/colinodell/872c1f0c92351af687347c0c8be4f253
