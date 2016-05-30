@@ -1,3 +1,25 @@
 {
-    "bootstrap": "vendor/autoload.php"
+    "path": "./BenchArrayChangeKeys.php",
+    "bootstrap": "vendor/autoload.php",
+    "progress": "dots",
+    "reports": {
+        "env": {
+            "title": "Environment",
+            "generator": "env"
+        },
+        "compare": {
+            "title": "Array Key Changing",
+            "generator": "table",
+            "cols": [ "subject" ],
+            "compare": "subject"
+        },
+        "list": {
+            "generator": "table",
+            "cols": [ "subject", "revs", "its", "mem", "best", "mean", "mode", "worst", "rstdev", "diff" ]
+        },
+        "all": {
+            "generator": "composite",
+            "reports": [ "env", "compare", "list" ]
+        }
+    }
 }
