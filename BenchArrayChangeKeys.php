@@ -60,6 +60,7 @@ final class BenchArrayChangeKeys
      */
     public function benchArrayChangeKeys()
     {
+        /** @noinspection PhpUnusedLocalVariableInspection */
         $newArray = array_change_keys(
             $this->array,
             function($key, $value) {
