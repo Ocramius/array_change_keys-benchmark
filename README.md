@@ -3,6 +3,10 @@
 This repo is a simple benchmark around the `array_change_keys()` PHP RFC that
 can be found at https://wiki.php.net/rfc/array_change_keys
 
+## TL;DR
+
+`array_change_keys` is 35% slower than simply using a `foreach` (and doesn't support iterators :-P ).
+
 ## Run this shit
 
 To run the benchmark, simply use `./run.sh`.
