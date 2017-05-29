@@ -79,7 +79,7 @@ suite: 133a012802990c6b9a6c66409404f7296da50b90, date: 2016-05-30, stime: 20:16:
 
 ## Licence
 
-This is MIT. I CBA to add the licence headers: send a PR if you need 'em'.
+This is MIT. I CBA to add the licence headers: send a PR if you need 'em.
 
 ## Credits
 
